@@ -61,9 +61,9 @@ Agora, `Apple` e `Orange` herdam de uma classe base abstrata `Fruit`, que define
 
 Principais benefícios do LSP:
 
-* Segurança polimórfica: Subtipos podem ser usados com segurança no lugar de suas superclasses.
-* Manutenção de contrato: Evita que extensões violem regras estabelecidas pelas abstrações.
-* Confiabilidade: Reduz o risco de erros ocultos decorrentes de substituições impróprias.
+- Segurança polimórfica: Subtipos podem ser usados com segurança no lugar de suas superclasses.
+- Manutenção de contrato: Evita que extensões violem regras estabelecidas pelas abstrações.
+- Confiabilidade: Reduz o risco de erros ocultos decorrentes de substituições impróprias.
 
 O LSP é essencial para preservar a integridade e a previsibilidade em sistemas orientados a objetos, especialmente quando se utiliza herança e polimorfismo extensivamente.
 
