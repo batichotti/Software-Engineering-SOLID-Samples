@@ -1,4 +1,4 @@
-// Code from -> https://github.com/mikeknep/SOLID
+// Code from -> https://github.com/mikeknep/SOLID/
 public class Penguin implements Bird {
     String currentLocation;
     int numberOfFeathers;

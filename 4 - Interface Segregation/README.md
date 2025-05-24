@@ -47,7 +47,7 @@ public class Penguin implements SwimmingCreature, FeatheredCreature {
     }
 
     public void molt() {
-        this.numberOfFeathers -= 4;
+        this.numberOfFeathers -= 1;
     }
 }
 ```
@@ -58,9 +58,9 @@ Marco Túlio Valente também exemplifica esse princípio com uma interface `Func
 
 Principais benefícios do ISP:
 
-* Alta coesão: Interfaces representam um único conceito ou responsabilidade.
-* Baixo acoplamento: Clientes dependem apenas do que realmente utilizam.
-* Facilidade de manutenção e evolução: Mudanças impactam menos componentes do sistema.
+- Alta coesão: Interfaces representam um único conceito ou responsabilidade.
+- Baixo acoplamento: Clientes dependem apenas do que realmente utilizam.
+- Facilidade de manutenção e evolução: Mudanças impactam menos componentes do sistema.
 
 O ISP reforça a importância de projetar interfaces pensando na real necessidade dos consumidores. Interfaces bem definidas resultam em sistemas mais adaptáveis, robustos e fáceis de entender.
 
