@@ -83,5 +83,5 @@ Adotar o OCP é essencial para manter a estabilidade de sistemas em evolução c
 
 **Referências:**
 - Bertrand Meyer. [Object-Oriented Software Construction](https://bertrandmeyer.com/wp-content/upLoads/OOSC2.pdf) (1988)
-- [Exemplo de código no GitHub](https://github.com/mrbrunelli/open-closed-principle)  
 - [Marco Túlio Valente - Engenharia de Software Moderna](https://engsoftmoderna.info/cap5.html)  
+- [Exemplo de código no GitHub](https://github.com/mrbrunelli/open-closed-principle)  
