@@ -75,5 +75,3 @@ O LSP é essencial para preservar a integridade e a previsibilidade em sistemas 
 * [Wikipedia - Liskov Substitution Principle](https://pt.wikipedia.org/wiki/Princ%C3%ADpio_da_substitui%C3%A7%C3%A3o_de_Liskov)
 * [Marco Túlio Valente - Engenharia de Software Moderna](https://engsoftmoderna.info/cap5.html)
 * [Exemplo de código no GitHub](https://github.com/LucasDiogo96/S.O.L.I.D/tree/main/3%20-%20Liskov%20Substitution)
-
-```
