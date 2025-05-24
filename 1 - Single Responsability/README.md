@@ -39,10 +39,10 @@ namespace SRP.Solution
 
 Como resultado dessa refatoração, cada classe passa a ser responsável por uma única tarefa, facilitando a manutenção, testes e evolução do sistema. Por exemplo, a validação foi movida para a classe `IdentificationService`, enquanto a persistência de dados pode ser tratada por outra classe especializada. Assim, o código se torna mais modular e alinhado ao princípio da responsabilidade única, reduzindo o acoplamento e aumentando a coesão.
 
-**Principais benefícios do SRP:**
-- **Facilidade de manutenção:** Mudanças em uma responsabilidade não afetam outras funcionalidades.
-- **Testabilidade:** Classes menores e focadas são mais fáceis de testar.
-- **Reutilização:** Componentes especializados podem ser reutilizados em outros contextos.
+Principais benefícios do SRP:
+- Facilidade de manutenção: Mudanças em uma responsabilidade não afetam outras funcionalidades.
+- Testabilidade: Classes menores e focadas são mais fáceis de testar.
+- Reutilização: Componentes especializados podem ser reutilizados em outros contextos.
 
 Adotar o SRP é um passo fundamental para construir sistemas mais robustos, flexíveis e fáceis de evoluir.
 
