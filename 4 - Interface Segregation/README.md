@@ -4,7 +4,7 @@ O Princípio da Segregação de Interfaces afirma que “nenhum cliente deve ser
 
 Segundo Marco Túlio Valente, no livro Engenharia de Software Moderna, o ISP pode ser entendido como uma aplicação prática do conceito de coesão no contexto de interfaces. Ele ainda ressalta: “o princípio define que interfaces têm que ser pequenas, coesas e, mais importante ainda, específicas para cada tipo de cliente.” Ao fazer isso, evita-se o acoplamento desnecessário entre classes que, embora relacionadas, exercem responsabilidades diferentes. Valente ainda aponta que uma violação comum ocorre quando uma interface reúne métodos que pertencem a contextos distintos, forçando classes a implementar operações que jamais utilizarão.
 
-Um exemplo didático está presente no repositório [mikeknep/SOLID](https://github.com/mikeknep/SOLID/blob/main/interface_segregation/bad/src/Penguin.java), onde a classe `Penguin` implementa a interface `Bird`, que define métodos como `fly()` e `swim()`:
+Um exemplo didático está presente no repositório [mikeknep/SOLID](https://github.com/mikeknep/SOLID/blob/main/interface_segregation), onde a classe `Penguin` implementa a interface `Bird`, que define métodos como `fly()` e `swim()`:
 
 ```java
 public class Penguin implements Bird {
