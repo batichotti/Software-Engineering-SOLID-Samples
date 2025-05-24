@@ -11,7 +11,7 @@ Segundo Marco Túlio Valente, este princípio determina que a implementação de
 
 A ideia central é minimizar o acoplamento e restringir o conhecimento que uma classe tem sobre as estruturas internas de outras. Ao violar esse princípio, cria-se um efeito conhecido como "train wreck", em que chamadas encadeadas expõem o encadeamento de dependências internas de um objeto, fragilizando o sistema.
 
-## Exemplo que viola a Lei de Demeter:
+Exemplo que viola a Lei de Demeter:
 
 ```java
 var deliveryDate =
@@ -22,7 +22,7 @@ var deliveryDate =
 
 Neste caso, `main()` conhece não apenas `order`, mas também `shipment`, `deliveryDetail` e seus respectivos métodos. Essa cadeia de chamadas fere o encapsulamento e torna o código mais frágil a mudanças internas nas classes.
 
-## Exemplo que respeita a Lei de Demeter:
+Exemplo que respeita a Lei de Demeter:
 
 ```java
 var deliveryDate = order.getDeliveryDate();
@@ -30,12 +30,11 @@ var deliveryDate = order.getDeliveryDate();
 
 A lógica de navegação entre objetos é encapsulada dentro de `order`, mantendo o método `main()` com conhecimento restrito e focado apenas no que realmente precisa: a data de entrega.
 
-## Vantagens da aplicação do princípio:
-
-* Baixo acoplamento entre classes.
-* Encapsulamento reforçado, ocultando detalhes internos.
-* Maior facilidade de manutenção, pois mudanças internas não afetam consumidores.
-* Legibilidade e simplicidade no código de alto nível.
+Vantagens da aplicação do princípio:
+- Baixo acoplamento entre classes.
+- Encapsulamento reforçado, ocultando detalhes internos.
+- Maior facilidade de manutenção, pois mudanças internas não afetam consumidores.
+- Legibilidade e simplicidade no código de alto nível.
 
 Aplicar a Lei de Demeter leva a um projeto mais modular e resiliente. Embora exija criar métodos de delegação adicionais, o custo é compensado pela melhoria na manutenibilidade e clareza do código.
 
