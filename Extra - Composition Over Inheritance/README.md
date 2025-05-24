@@ -4,8 +4,8 @@ O princípio da composição sobre herança orienta que, sempre que possível, �
 
 Marco Túlio destaca que existem dois tipos distintos de herança:
 
-* **Herança de classes** (`class A extends B`), que implica em reúso de código e alto acoplamento entre classes;
-* **Herança de interfaces** (`interface I extends J`), que não promove reúso direto e não é problemática.
+- Herança de classes (`class A extends B`), que implica em reúso de código e alto acoplamento entre classes;
+- Herança de interfaces (`interface I extends J`), que não promove reúso direto e não é problemática.
 
 Ele ainda destaca que durante a popularização da orientação a objetos, acreditava-se que a herança de classes seria a chave para maximizar o reúso de código. Projetos com hierarquias profundas eram tidos como bem estruturados. Contudo, com o tempo, identificou-se que a herança excessiva introduz forte acoplamento entre superclasses e subclasses, tornando difícil modificar ou estender o sistema sem efeitos colaterais.
 
@@ -48,10 +48,10 @@ Essa estrutura permite combinar livremente contratos e comissões, sem criar sub
 
 Principais vantagens da composição sobre a herança:
 
-* Baixo acoplamento: Evita a dependência rígida entre classes.
-* Encapsulamento preservado: Implementações internas permanecem ocultas.
-* Extensibilidade: Novas funcionalidades podem ser adicionadas sem alterar estruturas existentes.
-* Reutilização modular: Comportamentos podem ser combinados dinamicamente.
+- Baixo acoplamento: Evita a dependência rígida entre classes.
+- Encapsulamento preservado: Implementações internas permanecem ocultas.
+- Extensibilidade: Novas funcionalidades podem ser adicionadas sem alterar estruturas existentes.
+- Reutilização modular: Comportamentos podem ser combinados dinamicamente.
 
 Portanto, o princípio não elimina a herança, mas recomenda: quando há duas soluções viáveis, prefira a composição.
 
