@@ -31,7 +31,7 @@ public class WeatherTracker {
 }
 ```
 
-Neste cenário, `WeatherTracker` está fortemente acoplada às implementações de envio de alerta. Isso dificulta a substituição ou extensão desses comportamentos — por exemplo, para incluir um novo canal de notificação — sem modificar diretamente a classe.
+Neste cenário, `WeatherTracker` está fortemente acoplada às implementações de envio de alerta. Isso dificulta a substituição ou extensão desses comportamentos, por exemplo para incluir um novo canal de notificação, e sem modificar diretamente a classe.
 
 A versão correta aplica o DIP introduzindo uma abstração `Notifier`, com a qual `WeatherTracker` se relaciona:
 
@@ -55,10 +55,10 @@ Marco Túlio também exemplifica o princípio com a seguinte situação: suponha
 
 Principais benefícios do DIP:
 
-* Desacoplamento: Reduz dependências diretas entre classes, facilitando substituições.
-* Testabilidade: Interfaces permitem injeção de dependências e uso de mocks/stubs.
-* Flexibilidade: Novas implementações podem ser adicionadas sem alterar o código cliente.
-* Manutenção facilitada: Modificações locais não afetam módulos de alto nível.
+- Desacoplamento: Reduz dependências diretas entre classes, facilitando substituições.
+- Testabilidade: Interfaces permitem injeção de dependências e uso de mocks/stubs.
+- Flexibilidade: Novas implementações podem ser adicionadas sem alterar o código cliente.
+- Manutenção facilitada: Modificações locais não afetam módulos de alto nível.
 
 O DIP é essencial para sistemas extensíveis e robustos, promovendo uma arquitetura orientada a abstrações, não a detalhes de implementação.
 
