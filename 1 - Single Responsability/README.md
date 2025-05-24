@@ -2,7 +2,7 @@
 
 Segunda Marco Túlio Valente, o princípio da responsabilidade única impõe que "toda classe deve ter uma única responsabilidade" e que "deve existir um único motivo para modificar qualquer classe em um sistema". Ou seja, idealmente não devem existir classes que funcionem como canivetes Suíços, muito pelo contrário, elas devem ser especializadas em uma função, o que acarretaria em uma maior coesão e uma maior facilidade de manutenção.
 
-Lucas Diogo em seu Github [LucasDiogo96/S.O.L.I.D](https://github.com/LucasDiogo96/S.O.L.I.D/blob/main/1%20-%20Single%20Responsibility/Problem/Person.cs) traz um código simples que funciona como exemplo pedagógico sobre Single Responsability escrito em C#. É uma classe Person que armazena, valida e persiste dados de uma pessoa, ou seja, tem ao menos três funções que deveriam estar separadas.
+Lucas Diogo em seu Github [LucasDiogo96/S.O.L.I.D](https://github.com/LucasDiogo96/S.O.L.I.D/blob/main/1%20-%20Single%20Responsibility) traz um código simples que funciona como exemplo pedagógico sobre Single Responsability escrito em C#. É uma classe Person que armazena, valida e persiste dados de uma pessoa, ou seja, tem ao menos três funções que deveriam estar separadas.
 
 Em sua soução, Lucas separa esta classe pessoa e cria a seguinte estrutura:
 ```
