@@ -24,7 +24,7 @@ public class Orange : Apple
 }
 
 Apple fruit = new Orange();
-Console.WriteLine(fruit.GetColor()); // Saída: "Orange"
+Console.WriteLine(fruit.GetColor());
 ```
 
 Embora compilável, esse código viola o LSP. Ao criar uma laranja como se fosse uma maçã (`Apple fruit = new Orange()`), ocorre uma inversão de semântica: espera-se uma maçã vermelha, mas obtém-se uma laranja. Isso compromete o contrato original e pode gerar falhas lógicas.
@@ -54,7 +54,7 @@ public class Orange : Fruit
 }
 
 Fruit fruit = new Orange();
-Console.WriteLine(fruit.GetColor()); // Saída: "Orange"
+Console.WriteLine(fruit.GetColor());
 ```
 
 Agora, `Apple` e `Orange` herdam de uma classe base abstrata `Fruit`, que define claramente o contrato `GetColor()`. Com isso, qualquer substituição entre subtipos respeita o comportamento esperado, garantindo que o sistema continue funcionando corretamente, conforme preconizado pelo LSP.
